@@ -1,0 +1,12 @@
+data_raw/
+data_processed/
+models/
+*.fits
+*.fit
+*.fts
+*.gz
+*.zip
+*.tar
+*.log
+.ipynb_checkpoints/
+__pycache__/

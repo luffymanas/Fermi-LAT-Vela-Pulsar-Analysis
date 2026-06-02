@@ -1,0 +1,32 @@
+=== FERMI PROJECT SETUP LOG ===
+Tue Jun  2 17:01:24 UTC 2026
+
+Python:
+Python 3.9.23
+
+Conda environment:
+
+# conda environments:
+#
+# * -> active
+# + -> frozen
+base                     /home/the_supereme_master/miniforge3
+fermi                *   /home/the_supereme_master/miniforge3/envs/fermi
+
+
+Fermitools paths:
+/home/the_supereme_master/miniforge3/envs/fermi/bin/gtselect
+/home/the_supereme_master/miniforge3/envs/fermi/bin/gtbin
+/home/the_supereme_master/miniforge3/envs/fermi/bin/gtmktime
+/home/the_supereme_master/miniforge3/envs/fermi/bin/gtlike
+
+Fermitools package:
+List of packages in environment: "/home/the_supereme_master/miniforge3/envs/fermi"
+  fermipy                        1.4.2                pypi_0                pypi       
+  fermitools                     2.2.0                py39h93a0a19_0        fermi      
+  fermitools-data                0.18                 0                     fermi      
+
+Python package tests:
+astropy OK
+healpy OK
+fermipy OK

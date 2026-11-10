@@ -1,12 +1,59 @@
-data_raw/
-data_processed/
-models/
+
+# ==========================================
+# FERMI-LAT VELA PULSAR RESEARCH PROJECT
+# ==========================================
+
+# External SSD symbolic links
+/data_raw
+/data_processed
+/models
+
+# Fermi-LAT scientific data
 *.fits
 *.fit
 *.fts
+*.fits.gz
+*.fit.gz
+
+# Compressed archives
 *.gz
 *.zip
 *.tar
-*.log
-.ipynb_checkpoints/
+*.tgz
+*.7z
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and compiled files
 __pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Logs
+logs/
+*.log
+
+# Temporary test files
+test_from_wsl.txt
+*.tmp
+*.temp
+*.bak
+
+# Local editor configuration
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Fermi tool temporary outputs
+*.xml.tmp
